@@ -30,7 +30,7 @@ const Signup = (onSignupSuccess = null) => {
       e.password = "Password must be at least 6 characters";
     return e;
   };
-  const API_BASE = "http://localhost:4000";
+  const API_BASE = "https://techquizapp-1.onrender.com";
 
   const handleSubmit = async (ev) => {
     ev.preventDefault();

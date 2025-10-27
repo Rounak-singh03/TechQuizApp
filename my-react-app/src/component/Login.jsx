@@ -3,7 +3,7 @@ import { loginStyles } from "../assets/dummyStyle";
 import { Link, useNavigate } from "react-router-dom";
 import { ArrowLeft, Eye, EyeOff, LogIn, Lock, Mail } from "lucide-react";
 
-const API_BASE = "http://localhost:4000";
+const API_BASE = "https://techquizapp-1.onrender.com";
 
 const isValidEmail = (email) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 

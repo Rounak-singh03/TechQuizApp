@@ -6,8 +6,8 @@ import Navbar from '../component/Navbar'
 const MyResultPage = () => {
   return (
     <div>
-      <Navbar/>
-      <MyResult/>
+      <Navbar />
+      <MyResult />
     </div>
   )
 }

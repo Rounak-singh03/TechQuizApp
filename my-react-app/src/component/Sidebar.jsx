@@ -5,7 +5,7 @@ import axios from 'axios'
 import { toast } from 'react-toastify'
 import { Award, BookOpen, ChevronDown, ChevronRight, Code, Coffee, Cpu, Database, Globe, Layout, Sparkles, Star, Target, Terminal, Trophy, X, Zap, Menu, CheckCircle, XCircle} from 'lucide-react';
 
-const API_BASE = "http://localhost:4000";
+const API_BASE = "https://techquizapp-1.onrender.com";
 
 const Sidebar = () => {
   const [selectedTech, setSelectedTech] = useState(null);
